@@ -1,8 +1,13 @@
 # **Lane-Detection**
-In this project, we'll be detecting lane lines in videos and images of roads using the Computer Vision. Following lane lines is one of the most important traffic rules, so detecting them is a significant task while building models for autonomous(self-driving cars).
+**Objective: **In this project, we'll be detecting lane lines in videos and images of roads using the Computer Vision. Following lane lines is one of the most important traffic rules, so detecting them is a significant task while building models for autonomous(self-driving cars).
 
 ## Concepts Applied
-From various techniques that can be used to detect lines, we went with Canny Edge detection algorithm and Hough Transform method. There are some pre-processing required to be done on the video/image, but the Canny edge function does that for you. They are:
+From various techniques that can be used to detect lines, we went with Canny Edge detection algorithm and Hough Transform method. There are some pre-processing required to be done on the video/image, but the Canny edge function does that for you.
+This is our original image:
+<p align="center">
+<img src = "https://github.com/sampadabareja/Lane-Detection/blob/master/Images/test_image.jpg">
+</p>
+
 
 ### 1. Grayscaling
 It is the process of converting the images from RGB,HSV etc. to shades of grey. This process helps in increasing the contrast of the lanes, to be able to distinguish them from the rest of the image. The shades vary from pitch black to some whitish-grey, depending upon the wavelength of the original color.
