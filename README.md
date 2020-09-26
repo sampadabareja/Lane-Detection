@@ -51,7 +51,8 @@ Our final merged image, indicating lane lines will look like this:
 <p align="center">
 <img src = "https://github.com/sampadabareja/Lane-Detection/blob/master/Result%20Images/Finalimage.jpeg" width="400" height="350">
 </p>
-Contributed by: Sampada Bareja @ DS Community SRM 
+<p align="center">  Contributed by: Sampada Bareja @ DS Community SRM 
+</p>
 <p align="center">
 <img src = "https://github.com/Data-Science-Community-SRM/template/blob/master/logo-light.png?raw=true"  height="120" alt="Your Name Here (Insert Your Image Link In Src">
 </p>
