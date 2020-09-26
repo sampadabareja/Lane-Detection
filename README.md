@@ -15,7 +15,7 @@ This function actually detects the edges in the road image/video. After increasi
 
 ### 4. Hough Transform
 The final and significant method that allows us to work only with the region of our interest(which we define using a function, and tracing it on black pixel). The Hough Transform algorithm maps a line(in x-y plane) as a point(in Hough space) and and a single point(in x-y plane) as a family of lines(in Hough Space).
-(For deeper understnding behind the Hough Algorithm, check out - (https://towardsdatascience.com/lines-detection-with-hough-transform-84020b3b1549) )
+(For deeper understnding behind the Hough Algorithm, check out - https://towardsdatascience.com/lines-detection-with-hough-transform-84020b3b1549) 
 Thus, Hough transform returns us the lines having consistently aligned points, that are edges of our defined region of interest. It also detects curves, circles, etc, based on the same logic. 
 
 After applying all the above concept, we finally get our required edges of lane lines traced on black pixels, which we then merge with our original image by weighted additions, and voila! we have detected the lane lines.
