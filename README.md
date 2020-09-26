@@ -5,7 +5,7 @@
 From various techniques that can be used to detect lines, we went with Canny Edge detection algorithm and Hough Transform method. There are some pre-processing required to be done on the video/image, but the Canny edge function does that for you.
 This is our original image:
 <p align="center">
-<img src = "https://github.com/sampadabareja/Lane-Detection/blob/master/Images/test_image.jpg" width="200" height="200">
+<img src = "https://github.com/sampadabareja/Lane-Detection/blob/master/Images/test_image.jpg" width="400" height="200">
 </p>
 
 
