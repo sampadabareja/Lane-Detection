@@ -67,12 +67,12 @@ combo_image = cv2.addWeighted(copy_image, 0.8, line_image, 1, 1)
 cv2.imshow("result", combo_image)
 cv2.waitKey(0)'''
 
-capture = cv2.VideoCapture()
+capture = cv2.VideoCapture(r"D:\Projects\Lane-detection\Lane-Detection\test2.mp4")
 while(capture.isOpened()):
-    ret, frame = capture.read(r"D:\Projects\Lane_detection\Lane-Detection\test2.mp4")
+    ret, frame = capture.read()
     if ret == True:
         c1 = canny(frame)
-        cropped_image = region_of_interest(c1)
+        cropped_image = region_of_int(c1)
         lines = cv2.HoughLinesP(cropped_image, 2, np.pi/180, 100, np.array([]), minLineLength=40,maxLineGap=5)
         averaged_lines = average_slope_int(frame, lines)
         line_image = display_lines(frame, averaged_lines)
