@@ -1,10 +1,10 @@
 # **Lane-Detection**
 **Objective:** In this project, we'll be detecting lane lines in videos and images of roads using the Computer Vision. Following lane lines is one of the most important traffic rules, so detecting them is a significant task while building models for autonomous(self-driving cars).
 ## Requirements:
-Python version 3.7.0
-opencv-python==4.4.0.42
-numpy==1.19.2
-matplotlib==3.3.2
+Python version 3.7.0 <br>
+opencv-python==4.4.0.42 <br>
+numpy==1.19.2 <br>
+matplotlib==3.3.2 <br>
 
 ## Concepts Applied
 From various techniques that can be used to detect lines, we went with Canny Edge detection algorithm and Hough Transform method. 
@@ -51,7 +51,7 @@ Our final merged image, indicating lane lines will look like this:
 <p align="center">
 <img src = "https://github.com/sampadabareja/Lane-Detection/blob/master/Result%20Images/Finalimage.jpeg" width="400" height="350">
 </p>
-Project done by: Sampada Bareja @ DS Community SRM 
+Contributed by: Sampada Bareja @ DS Community SRM 
 <p align="centre">
 <img src = "https://github.com/Data-Science-Community-SRM/template/blob/master/logo-light.png?raw=true"  height="120" alt="Your Name Here (Insert Your Image Link In Src">
 </p>
