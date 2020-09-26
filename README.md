@@ -1,5 +1,5 @@
 # **Lane-Detection**
-**Objective:** In this project, we'll be detecting lane lines in videos and images of roads using the Computer Vision. Following lane lines is one of the most important traffic rules, so detecting them is a significant task while building models for autonomous(self-driving cars).
+**Objective:** In this project, we'll be detecting lane lines in videos and images of roads using the Computer Vision. Following lane lines is one of the most important traffic rules, so detecting them is a significant task while building models for autonomous(self-driving) vehicles.
 ## Requirements:
 Python version 3.7.0 <br>
 opencv-python==4.4.0.42 <br>
